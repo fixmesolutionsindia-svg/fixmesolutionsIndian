@@ -74,8 +74,9 @@ align-items: center;
 gap: 10px;
 }
 
-.logo img{
-height:110px;
+header .logo img{
+height:150px !important;
+}
 border-radius:6px;
 }
 .container.nav{
