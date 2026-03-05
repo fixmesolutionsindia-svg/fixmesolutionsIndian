@@ -75,10 +75,9 @@ gap: 10px;
 }
 
 header .logo img{
-height:150px !important;
+height:180px;
 width:auto;
-display:block;
-margin:auto;
+border-radius:8px;
 }
 
 
@@ -117,8 +116,8 @@ height:110px;
 }
 
 .logo span{
-font-size:26px;
-font-weight:800;
+font-size:40px;
+font-weight:900;
 }
 letter-spacing:2px;
 font-family:'Segoe UI', Arial, sans-serif;
