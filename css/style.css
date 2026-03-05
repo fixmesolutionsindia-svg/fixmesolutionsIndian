@@ -76,15 +76,20 @@ gap: 10px;
 
 header .logo img{
 height:150px !important;
-border-radius:6px;
+width:auto;
+display:block;
+margin:auto;
 }
+
 
 .container.nav{
 display:flex;
 align-items:center;
 justify-content:space-between;
 }
-
+.logo{
+flex-direction:column;
+}
 
 header .container.nav{
 display:flex;
