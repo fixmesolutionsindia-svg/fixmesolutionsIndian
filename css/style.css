@@ -126,3 +126,22 @@ font-family:'Segoe UI', Arial, sans-serif;
 text-transform:uppercase;
 color:white;
 }
+.services-preview{
+padding:40px 20px;
+}
+
+.grid3{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+margin-top:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+font-weight:600;
+text-align:center;
+}
