@@ -76,9 +76,9 @@ gap: 10px;
 
 header .logo img{
 height:150px !important;
-}
 border-radius:6px;
 }
+
 .container.nav{
 display:flex;
 align-items:center;
