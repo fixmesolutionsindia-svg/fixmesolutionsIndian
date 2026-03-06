@@ -347,23 +347,9 @@ cursor:pointer;
 background:#0b5ed7;
 }
 
-.footer{
-display:flex;
-justify-content:center;
-align-items:center;
-margin-top:40px;
-width:100%;
-grid-column:1/-1;
-position:relative;
-}
-
-.footer-box{
-background:#0b1a33;
-color:white;
+.copyright{
 text-align:center;
-padding:30px;
-border-radius:16px;
-width:100%;
-max-width:500px;
-margin:auto;
+font-size:14px;
+color:#777;
+margin:40px 0;
 }
