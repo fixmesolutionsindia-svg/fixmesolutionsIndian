@@ -365,14 +365,9 @@ margin-top:40px;
 font-size:14px;
 width:100%;
 }
+
 .footer{
-background:#0b1a33;
-color:white;
-padding:40px 20px;
-margin-top:50px;
-width:100%;
-display:flex;
-justify-content:center;
+display:none;
 }
 
 .footer-container{
