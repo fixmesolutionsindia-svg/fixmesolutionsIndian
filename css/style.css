@@ -182,3 +182,26 @@ font-size:30px;
 cursor:pointer;
 color:white;
 }
+#mobileMenu{
+position: fixed;
+top: 0;
+left: -250px;
+width: 250px;
+height: 100%;
+background: #0b1a33;
+padding-top: 60px;
+transition: 0.3s;
+display: flex;
+flex-direction: column;
+}
+
+#mobileMenu a{
+color: white;
+padding: 15px;
+text-decoration: none;
+font-size: 18px;
+}
+
+#mobileMenu a:hover{
+background:#132a52;
+}
