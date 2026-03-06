@@ -20,7 +20,7 @@
 
 
 <div class="menu-icon" onclick="toggleMenu()">☰</div>
-<nav id="mobileMenu" hidden>
+<nav id="mobileMenu" style="display:none;">
 <a href="index.html">Home</a>
 <a href="services.html">Services</a>
 <a href="offers.html">Offers</a>
@@ -75,17 +75,17 @@
 
 <a class="whatsapp" href="https://wa.me/916362060355">Chat on WhatsApp</a>
 
+
 <script>
 function toggleMenu(){
-var menu=document.getElementById("mobileMenu");
+var menu = document.getElementById("mobileMenu");
 
-if(menu.hasAttribute("hidden")){
-menu.removeAttribute("hidden");
+if(menu.style.display === "none"){
+menu.style.display = "block";
 }else{
-menu.setAttribute("hidden","");
+menu.style.display = "none";
 }
 }
 </script>
-
 </body>
 </html>
