@@ -354,4 +354,5 @@ font-size:14px;
 color:#777;
 margin:40px auto;
 width:100%;
+grid-column:1/-1;
 }
