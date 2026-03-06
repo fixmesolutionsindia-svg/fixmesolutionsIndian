@@ -348,8 +348,10 @@ background:#0b5ed7;
 }
 
 .copyright{
+display:block;
 text-align:center;
 font-size:14px;
 color:#777;
-margin:40px 0;
+margin:40px auto;
+width:100%;
 }
