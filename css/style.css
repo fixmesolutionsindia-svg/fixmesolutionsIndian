@@ -176,6 +176,7 @@ top:20px;
 font-size:30px;
 cursor:pointer;
 color:white;
+z-index:10000;
 }
 
 #mobileMenu{
