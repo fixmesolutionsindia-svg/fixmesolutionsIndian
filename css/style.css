@@ -354,6 +354,8 @@ align-items:center;
 margin-top:40px;
 width:100%;
 grid-column:1/-1;
+position:relative;
+left:0;
 }
 
 .footer-box{
@@ -362,7 +364,7 @@ color:white;
 text-align:center;
 padding:30px;
 border-radius:16px;
-width:90%;
+width:100%;
 max-width:500px;
 margin:auto;
 }
