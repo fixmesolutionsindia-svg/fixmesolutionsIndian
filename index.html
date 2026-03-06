@@ -91,13 +91,13 @@
   
 <form name="booking" method="POST" data-netlify="true">
 <input type="hidden" name="form-name" value="booking">
-<input type="text" placeholder="Full Name" required>
+<input type="text" name="name" placeholder="Full Name" required>
 
-<input type="email" placeholder="Email Address" required>
+<input type="email" name="email" placeholder="Email">
 
-<input type="tel" placeholder="Phone Number" required>
+<input type="tel" name="phone" placeholder="Phone Number">
 
-<select required>
+<select name="device" required>
 <option value="">Select Device</option>
 <option>Android Phone</option>
 <option>iPhone</option>
@@ -105,7 +105,7 @@
 <option>Tablet</option>
 </select>
 
-<select required>
+<select name="brand" required>
 <option value="">Select Brand</option>
 <option>Apple</option>
 <option>Samsung</option>
