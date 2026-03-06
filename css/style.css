@@ -379,7 +379,6 @@ justify-content:center;
 display:grid;
 grid-template-columns:1fr;
 gap:25px;
-width:100%;
 max-width:500px;
 margin:auto;
 text-align:center;
