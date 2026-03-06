@@ -20,7 +20,7 @@
 
 <div class="menu-icon" onclick="toggleMenu()">☰</div>
 
-<nav id="mobileMenu">
+<nav id="mobileMenu" hidden>
 <a href="index.html">Home</a>
 <a href="services.html">Services</a>
 <a href="offers.html">Offers</a>
@@ -78,10 +78,11 @@
 <script>
 function toggleMenu(){
 var menu=document.getElementById("mobileMenu");
-if(menu.style.display==="block"){
-menu.style.display="none";
+
+if(menu.hasAttribute("hidden")){
+menu.removeAttribute("hidden");
 }else{
-menu.style.display="block";
+menu.setAttribute("hidden","");
 }
 }
 </script>
