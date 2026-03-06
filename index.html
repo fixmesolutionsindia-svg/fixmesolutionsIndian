@@ -80,14 +80,52 @@
 <p>© 2026 Fixme Solutions India</p>
 <p>Service Area: Mysore</p>
 </footer>
+<div id="bookingPopup" class="popup">
 
+<div class="popup-box">
+
+<span onclick="closePopup()" style="float:right;font-size:22px;cursor:pointer;">✕</span>
+
+<h2>Book Your Service</h2>
+
+<input type="text" placeholder="Name"><br><br>
+
+<input type="tel" placeholder="Phone Number"><br><br>
+
+<select>
+<option>Select Service</option>
+<option>Screen Replacement</option>
+<option>Battery Replacement</option>
+<option>Charging Port Repair</option>
+<option>Motherboard Repair</option>
+<option>Camera Repair</option>
+<option>Water Damage Repair</option>
+</select><br><br>
+
+<textarea placeholder="Message"></textarea><br><br>
+
+<button>Submit</button>
+</div>
+</div>
+
+</div>
 <a class="whatsapp" href="https://wa.me/"></a>
 
 <script>
+
 function toggleMenu(){
 var menu = document.getElementById("mobileMenu");
 menu.classList.toggle("active");
 }
+
+function openPopup(){
+document.getElementById("bookingPopup").style.display="flex";
+}
+
+function closePopup(){
+document.getElementById("bookingPopup").style.display="none";
+}
+
 </script>
 </body>
 </html>
