@@ -348,10 +348,17 @@ background:#0b5ed7;
 }
 
 .footer{
-width:100%;
+display:flex;
+justify-content:center;
+margin-top:40px;
+}
+
+.footer-box{
 background:#0b1a33;
 color:white;
 text-align:center;
-padding:40px 20px;
-margin-top:40px;
+padding:30px;
+border-radius:16px;
+width:90%;
+max-width:500px;
 }
