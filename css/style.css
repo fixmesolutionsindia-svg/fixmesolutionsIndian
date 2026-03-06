@@ -351,6 +351,7 @@ background:#0b5ed7;
 display:flex;
 justify-content:center;
 margin-top:40px;
+width:100%;
 }
 
 .footer-box{
@@ -361,4 +362,5 @@ padding:30px;
 border-radius:16px;
 width:90%;
 max-width:500px;
+margin:auto;
 }
