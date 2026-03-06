@@ -88,7 +88,9 @@
 <span onclick="closePopup()" style="float:right;font-size:22px;cursor:pointer;">✕</span>
 
 <h2>Book Your Service</h2>
-
+  
+<form name="booking" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="booking">
 <input type="text" placeholder="Full Name" required>
 
 <input type="email" placeholder="Email Address" required>
@@ -156,6 +158,8 @@
 <textarea placeholder="Describe the problem"></textarea>
 
 <button type="submit">Book Service</button>
+  
+</form>
 </div>
 </div>
 
