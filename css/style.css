@@ -174,3 +174,11 @@ text-align:center;
 display:block;
 padding:10px;
 }
+.menu-icon{
+position:absolute;
+left:20px;
+top:20px;
+font-size:30px;
+cursor:pointer;
+color:white;
+}
