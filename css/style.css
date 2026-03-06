@@ -374,7 +374,7 @@ margin-top:50px;
 
 .footer-container{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+grid-template-columns:1fr;
 gap:25px;
 width:100%;
 max-width:100%;
