@@ -80,15 +80,9 @@
 <a class="whatsapp" href="https://wa.me/916362060355">Chat on WhatsApp</a>
 
 
-<script>
 function toggleMenu(){
 var menu = document.getElementById("mobileMenu");
-
-if(menu.style.left === "0px"){
-menu.style.left = "-250px";
-}else{
-menu.style.left = "0px";
-}
+menu.classList.toggle("active");
 }
 </script>
 </body>
