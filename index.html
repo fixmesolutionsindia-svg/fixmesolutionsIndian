@@ -88,23 +88,73 @@
 
 <h2>Book Your Service</h2>
 
-<input type="text" placeholder="Name"><br><br>
+<input type="text" placeholder="Full Name" required>
 
-<input type="tel" placeholder="Phone Number"><br><br>
+<input type="email" placeholder="Email Address" required>
 
-<select>
-<option>Select Service</option>
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+<option value="">Select Device</option>
+<option>Android Phone</option>
+<option>iPhone</option>
+<option>iPad</option>
+<option>Tablet</option>
+</select>
+
+<select required>
+<option value="">Select Brand</option>
+<option>Apple</option>
+<option>Samsung</option>
+<option>OnePlus</option>
+<option>Xiaomi</option>
+<option>Realme</option>
+<option>Vivo</option>
+<option>Oppo</option>
+<option>Motorola</option>
+<option>Nokia</option>
+<option>Google Pixel</option>
+<option>Other</option>
+</select>
+
+<select required>
+<option value="">Select Service</option>
 <option>Screen Replacement</option>
 <option>Battery Replacement</option>
 <option>Charging Port Repair</option>
 <option>Motherboard Repair</option>
 <option>Camera Repair</option>
 <option>Water Damage Repair</option>
-</select><br><br>
+<option>Speaker Repair</option>
+<option>Proximity Sensor Issue</option>
+<option>Dead Condition</option>
+<option>Not Turning On / Off</option>
+<option>Restarting Issue</option>
+<option>Heating Issue</option>
+<option>Touch Not Working</option>
+<option>Battery Draining</option>
+<option>Network Issue</option>
+<option>Bluetooth / WiFi Issue</option>
+<option>Other</option>
+</select>
 
-<textarea placeholder="Message"></textarea><br><br>
+<select required>
+<option value="">Select Location</option>
+<option>Mysore</option>
+<option>Madikeri</option>
+<option>Kushalnagar</option>
+<option>Periyapatna</option>
+</select>
 
-<button>Submit</button>
+<select required>
+<option value="">Pickup Slot</option>
+<option>12 PM - 6 PM</option>
+<option>6 PM - 10 PM</option>
+</select>
+
+<textarea placeholder="Describe the problem"></textarea>
+
+<button type="submit">Book Service</button>
 </div>
 </div>
 
