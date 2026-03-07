@@ -485,3 +485,102 @@ font-size:14px;
 margin-top:10px;
 color:#333;
 }
+
+/* Mobile Protection Kits */
+
+.kit-section{
+padding:50px 20px;
+background:#f7f9fc;
+text-align:center;
+}
+
+.kit-main-title{
+font-size:30px;
+font-weight:700;
+margin-bottom:5px;
+}
+
+.section-sub{
+color:#666;
+margin-bottom:30px;
+}
+
+.kit-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+max-width:900px;
+margin:auto;
+}
+
+.kit-box{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+text-align:left;
+transition:0.3s;
+}
+
+.kit-box:hover{
+transform:translateY(-6px);
+box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.kit-price{
+font-size:26px;
+font-weight:700;
+color:#27ae60;
+margin:10px 0;
+}
+
+.old-price{
+text-decoration:line-through;
+color:#888;
+font-size:16px;
+margin-left:6px;
+}
+
+.save-tag{
+background:#ff4d4d;
+color:white;
+font-size:12px;
+padding:4px 8px;
+border-radius:6px;
+margin-left:6px;
+}
+
+.limited-offer{
+background:#ff4d4d;
+color:white;
+display:inline-block;
+padding:5px 10px;
+border-radius:6px;
+font-size:13px;
+margin:8px 0;
+}
+
+.delivery-info{
+font-size:14px;
+color:#444;
+margin-bottom:10px;
+}
+
+.kit-box ul{
+list-style:none;
+padding:0;
+}
+
+.kit-box li{
+margin:6px 0;
+}
+
+.kit-box li::before{
+content:"✔ ";
+color:#27ae60;
+font-weight:bold;
+}
+
+.premium{
+border:2px solid #27ae60;
+}
