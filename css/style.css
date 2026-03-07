@@ -398,3 +398,65 @@ margin-top:30px;
 padding-top:15px;
 font-size:14px;
 }
+
+/* ESTIMATE SECTION */
+
+.estimate-section{
+background:#f5f7fb;
+padding:50px 20px;
+text-align:center;
+}
+
+.estimate-section h2{
+font-size:28px;
+margin-bottom:10px;
+}
+
+.estimate-section p{
+color:#555;
+margin-bottom:25px;
+}
+
+.estimate-form{
+max-width:500px;
+margin:auto;
+display:grid;
+gap:12px;
+}
+
+.estimate-form select,
+.estimate-form input,
+.estimate-form textarea{
+width:100%;
+padding:12px;
+border-radius:8px;
+border:1px solid #ddd;
+font-size:15px;
+outline:none;
+}
+
+.estimate-form textarea{
+height:90px;
+resize:none;
+}
+
+.note{
+font-size:13px;
+color:#777;
+}
+
+.estimate-form button{
+background:#25D366;
+color:white;
+border:none;
+padding:14px;
+border-radius:8px;
+font-size:16px;
+font-weight:600;
+cursor:pointer;
+transition:0.3s;
+}
+
+.estimate-form button:hover{
+background:#1ebe5d;
+}
