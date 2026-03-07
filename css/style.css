@@ -460,3 +460,28 @@ transition:0.3s;
 .estimate-form button:hover{
 background:#1ebe5d;
 }
+
+/* FREE tag */
+.free-tag{
+background:#ff2b2b;
+color:white;
+padding:6px 14px;
+border-radius:6px;
+font-size:18px;
+font-weight:bold;
+margin-left:6px;
+display:inline-block;
+transform:rotate(-8deg);
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* WhatsApp message highlight */
+.whatsapp-note{
+background:#e8fff1;
+border-left:4px solid #25D366;
+padding:10px;
+border-radius:6px;
+font-size:14px;
+margin-top:10px;
+color:#333;
+}
