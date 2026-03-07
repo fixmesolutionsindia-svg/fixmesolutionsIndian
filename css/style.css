@@ -614,3 +614,80 @@ max-width:400px;
 margin-left:auto;
 margin-right:auto;
 }
+
+/* Kit cards design */
+
+.kit-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.kit-box{
+background:#ffffff;
+border-radius:16px;
+padding:25px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+transition:0.3s;
+border:2px solid transparent;
+}
+
+.kit-box:hover{
+transform:translateY(-6px);
+box-shadow:0 18px 35px rgba(0,0,0,0.15);
+}
+
+.kit-box.premium{
+border:2px solid #22c55e;
+background:linear-gradient(180deg,#ffffff,#f6fff8);
+}
+
+.kit-price{
+font-size:26px;
+font-weight:700;
+color:#22c55e;
+margin:10px 0;
+}
+
+.old-price{
+text-decoration:line-through;
+color:#888;
+font-size:16px;
+margin-left:8px;
+}
+
+.save-tag{
+background:#ff4d4d;
+color:white;
+padding:4px 10px;
+border-radius:6px;
+font-size:12px;
+margin-left:8px;
+}
+
+.limited-offer{
+background:#ff4d4d;
+color:white;
+display:inline-block;
+padding:6px 12px;
+border-radius:8px;
+font-size:13px;
+margin-top:10px;
+}
+
+.delivery-info{
+margin-top:10px;
+font-size:14px;
+color:#555;
+}
+
+.kit-box ul{
+margin-top:15px;
+padding-left:18px;
+}
+
+.kit-box li{
+margin-bottom:6px;
+color:#333;
+}
