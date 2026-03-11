@@ -89,11 +89,9 @@ with the repair cost within minutes.
 After WhatsApp opens, please attach photos or videos of your phone.
 </p>
 
-<a href="https://wa.me/916362060355?text=Hello%20FixMe%20Solutions%20India,%20I%20need%20a%20repair%20estimate%20for%20my%20phone."
-target="_blank"
-class="whatsapp-btn">
+<button onclick="sendToWhatsApp()" class="estimate-btn">
 🟢 Get Free Estimate on WhatsApp
-</a>
+</button>
 
 </div>
 
@@ -105,9 +103,18 @@ class="whatsapp-btn">
 <img src="book-service.png" onclick="openPopup()" style="width:100%; max-width:1100px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,0.2); cursor:pointer;">
   
 <br><br>
-  <a href="#book-service" style="font-weight:bold; font-size:16px;">
+  
+<br>
+
+<a href="#booking-form" style="
+display:inline-block;
+margin-top:10px;
+color:#6a1b9a;
+font-weight:bold;
+text-decoration:none;
+font-size:16px;">
 👆🏽 Click here to Book
-  </a>
+</a>
 
 </section>
 <section class="kit-section">
@@ -335,6 +342,28 @@ document.getElementById("bookingPopup").style.display="none";
 <div style="text-align:center;font-size:13px;color:#777;margin-top:30px;">
 © 2026 Fixme Solutions India
 </div>
-  
+
+ <script>
+function sendToWhatsApp(){
+
+var brand = document.getElementById("brand").value;
+var device = document.getElementById("device").value;
+var model = document.getElementById("model").value;
+var issue = document.getElementById("issue").value;
+var problem = document.getElementById("problem").value;
+
+var message = "Hello FixMe Solutions India,%0A%0A" +
+"Brand: " + brand + "%0A" +
+"Device: " + device + "%0A" +
+"Model: " + model + "%0A" +
+"Issue: " + issue + "%0A" +
+"Problem: " + problem;
+
+var url = "https://wa.me/916362060355?text=" + message;
+
+window.open(url, "_blank");
+
+}
+ </script> 
 </body>
 </html>
