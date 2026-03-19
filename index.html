@@ -83,7 +83,7 @@ with the repair cost within minutes.
 <option>Water Damage</option>
 </select>
 
-<textarea id="description" placeholder="Describe the Problem (Optional)"></textarea>
+<textarea id="problem"></textarea>
 
 <p class="note">
 After WhatsApp opens, please attach photos or videos of your phone.
@@ -343,7 +343,7 @@ document.getElementById("bookingPopup").style.display="none";
 © 2026 Fixme Solutions India
 </div>
 
- <script>
+<script>
 function sendToWhatsApp(){
 
 var brand = document.getElementById("brand").value;
@@ -352,18 +352,18 @@ var model = document.getElementById("model").value;
 var issue = document.getElementById("issue").value;
 var problem = document.getElementById("problem").value;
 
-var message = "Hello FixMe Solutions India,%0A%0A" +
-"Brand: " + brand + "%0A" +
-"Device: " + device + "%0A" +
-"Model: " + model + "%0A" +
-"Issue: " + issue + "%0A" +
-"Problem: " + problem;
+var message = "Hello FixMe Solutions India,%0A"
+              + "Brand: " + brand + "%0A"
+              + "Device: " + device + "%0A"
+              + "Model: " + model + "%0A"
+              + "Issue: " + issue + "%0A"
+              + "Problem: " + problem;
 
 var url = "https://wa.me/916362060355?text=" + message;
 
-window.open(url, "_blank");
-
+  window.open(url, "_blank");
 }
- </script> 
+  
+</script> 
 </body>
 </html>
