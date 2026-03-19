@@ -350,14 +350,15 @@ var brand = document.getElementById("brand").value;
 var device = document.getElementById("device").value;
 var model = document.getElementById("model").value;
 var issue = document.getElementById("issue").value;
-var problem = document.getElementById("problem").value;
+var problem = document.getElementById("problem").value || "No additional details";
 
 var message = "Hello FixMe Solutions India,%0A"
-              + "Brand: " + brand + "%0A"
-              + "Device: " + device + "%0A"
-              + "Model: " + model + "%0A"
-              + "Issue: " + issue + "%0A"
-              + "Problem: " + problem;
+            + "I want repair estimate.%0A%0A"
+            + "Brand: " + brand + "%0A"
+            + "Device: " + device + "%0A"
+            + "Model: " + model + "%0A"
+            + "Issue: " + issue + "%0A"
+            + "Problem: " + problem;
 
 var url = "https://wa.me/916362060355?text=" + message;
 
